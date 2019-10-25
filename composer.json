@@ -1,7 +1,6 @@
 {
     "name": "pherum/paprikash",
     "description": "paprikash",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -20,5 +19,9 @@
             "PheRum\\Paprikash\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
